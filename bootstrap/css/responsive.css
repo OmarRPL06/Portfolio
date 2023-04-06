@@ -1,0 +1,85 @@
+/* If the screen size is 992px wide or more, set the font-size */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* If the screen size is 992px wide or more, set the font-size */
+@media screen and (max-width:1199px) and (min-width: 992px) {
+
+}
+
+/* If the screen size is 768px wide or more, set the font-size */
+@media screen and (max-width:991px) and (min-width: 768px) {
+    
+    .title {
+        text-align: center;
+    }
+
+    .section-perfil .container-img-btn {
+        text-align: center;
+    }
+    
+    .section-perfil p {
+        text-align: center;
+    }
+
+    .section-habilidades img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section-habilidades span {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 10px;
+    }
+
+}
+
+/* If the screen size is 767px wide or less, set the font-size */
+@media screen and (max-width: 767px) {
+    
+    .title {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .section-perfil p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .section-perfil .container-img-btn {
+        text-align: center;
+    }
+
+    .section-projects {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section-habilidades img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section-habilidades span {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .section-contacto  p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+
+}
+
+@media screen and (orientation: portrait) {
+
+}

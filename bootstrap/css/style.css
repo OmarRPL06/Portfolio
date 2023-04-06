@@ -1,0 +1,185 @@
+*{
+    font-family: 'Roboto Mono', monospace,'Courier New', Courier, monospace;
+}
+
+:root {
+
+    --dark: #212e36;
+    --darker: #192229;
+    --darkest: #121a21;
+    --dark-accent: #1b2831;
+    --gray-100: #fbfdfe;
+    --gray-200: #f9fafb;
+    --gray-300: #ecf0f3;
+    --gray-400: #b7c1c8;
+    --gray-500: #8e9ba4;
+    --gray-600: #687782;
+    --gray-700: #273b49;
+    --gray-800: #28353e;
+    --gray-900: #192229;
+}
+
+body {
+    background-color: var(--darkest);
+}
+
+.title {
+    color: var(--gray-200);
+    font-size:x-large;
+    font-weight: 500;
+    padding: 0px;
+}
+
+nav {
+    background-color: var(--darker) !important;
+    border-bottom: solid 1px var(--gray-700);
+}
+
+nav .navbar-brand {
+    color: var(--gray-100);
+}
+
+nav .nav-link {
+    color: var(--gray-500);
+    font-size: 15px;
+}
+
+nav .nav-link:hover {
+    color: var(--gray-400);
+}
+
+nav .navbar-toggler {
+    background-color: var(--gray-500);
+}
+
+.section-perfil {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.section-perfil .name-user {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    border: solid 3px var(--gray-700);
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    color: var(--gray-400);
+    /* font-size: 15px; */
+}
+
+.btn-a {
+    background-color: var(--gray-700);
+    color: var(--gray-400);
+}
+
+.btn-a:hover {
+    background-color: var(--gray-600);
+    color: var(--gray-400);
+}
+
+.section-projects {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+}
+
+.card img {
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.card .card-body {
+    background-color: var(--dark);
+    color: var(--gray-400);
+    border: none;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.card .card-body .a-link {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--gray-600);
+}
+
+.card .card-body .a-link:hover {
+    color: var(--gray-500);
+}
+
+.card .card-text {
+    font-size: 13px;
+}
+
+hr {
+    color: var(--gray-500);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mt-6 {
+    margin-top: 6%;
+}
+
+.mt-8 {
+    margin-top: 8%;
+}
+
+.mb-6 {
+    margin-bottom: 6%;
+}
+
+.mb-8 {
+    margin-bottom: 8%;
+}
+
+.section-habilidades {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.section-habilidades span {
+    color: var(--gray-500);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.section-contacto {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.section-contacto small {
+    color: var(--gray-400);
+    font-style: italic;
+    font-weight: 500;
+}
+
+.a-link-contact {
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--darker) !important;
+    color: var(--gray-500);
+    border-top: solid 1px var(--gray-700);
+    font-size: 15px;
+}
