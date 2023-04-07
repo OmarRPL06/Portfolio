@@ -35,7 +35,7 @@
             <a class="navbar-brand" href="#">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                aria-label="Toggle navigation" onclick="mostrar()">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,19 +43,19 @@
                 <div class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#MyPerfil">Perfil</a>
+                            <a class="nav-link" aria-current="page" href="#" onclick="ocultar()">Perfil</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Educación</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#MyProjects">Proyectos</a>
+                            <a class="nav-link" aria-current="page" href="#MyProjects" onclick="ocultar()">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#habilidades">Habilidades</a>
+                            <a class="nav-link" aria-current="page" href="#habilidades" onclick="ocultar()">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#contactame">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="#contactame" onclick="ocultar()">Contacto</a>
                         </li>
 
                     </ul>
@@ -269,5 +269,16 @@
     </div>
     
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function mostrar() {
+        var element = document.getElementById("navbarSupportedContent");
+        element.style.display='block';
+    }
 
+    function ocultar() {
+        var element = document.getElementById("navbarSupportedContent");
+        element.style.display='none';
+    }
+</script>
 </html>
