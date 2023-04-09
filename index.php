@@ -244,7 +244,7 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-7">
-                            <a href="" class="a-link-contact">
+                            <a href="mailto:omarperezrl38@gmail.com" target="_top" class="a-link-contact">
                                 <small><i class="fas fa-envelope" style="color: #66a1e1;">
                                 </i> Correo Electrónico</small>
                                 <p><i class="fas fa-long-arrow-alt-right"></i> omarperezrl38@gmail.com</p>
